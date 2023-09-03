@@ -33,6 +33,10 @@ function QuestionCard({ item, questions, setAnswered, complete }) {
             setMessage('More than half is above average. Well done :)')
             return
         }
+        else if (percentage == 0.5) {
+            setMessage('You got half of them! Not bad... but not good either.')
+            return
+        }
         else {
             setMessage('Less than half... better luck next time')
         }
