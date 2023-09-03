@@ -1,0 +1,36 @@
+.name-output {
+    text-transform: capitalize;
+}
+
+.card-container {
+    margin: auto ;
+    max-width: 600px;
+    min-width: 250px;
+    width: 70vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem 1rem;
+}
+
+.question-number {
+    text-align: center;
+    margin-top: 3rem;
+    user-select: none;
+}
+
+.next-button {
+    cursor: pointer;
+    margin: auto;
+    width: 200px;
+    height: 50px;
+    color: var(--main-color);
+    background-color: var(--secondary-color);
+    border: 2px solid var(--main-color);
+    user-select: none;
+}
+
+.next-button:hover {
+    color: var(--secondary-color);
+    background-color: var(--main-color);
+    border: 2px solid var(--secondary-color);
+}
