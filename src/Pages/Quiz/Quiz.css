@@ -16,6 +16,7 @@
     text-align: center;
     margin-top: 3rem;
     user-select: none;
+    color: var(--main-color);
 }
 
 .next-button {
